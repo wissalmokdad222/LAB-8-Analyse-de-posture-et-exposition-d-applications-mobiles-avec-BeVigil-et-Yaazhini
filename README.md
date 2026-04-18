@@ -1,6 +1,5 @@
 ## Task 1 — Préparation du workspace et traçabilité
 ![](https://github.com/user-attachments/assets/f3f43cd7-6e21-41db-a9dc-6a015608e6e5)
-
 ![](https://github.com/user-attachments/assets/154cd3b3-2833-4e41-9195-a7082c17441b)
 ## Task 2 — Préparer l'artefact autorisé
 ![](https://github.com/user-attachments/assets/d404fd83-6798-4bd7-a56c-1955b02d25b8)
@@ -19,10 +18,18 @@
 ![](https://github.com/user-attachments/assets/8c0fe22b-3318-44df-bcf8-a50fb4121c0a)
 ![](https://github.com/user-attachments/assets/4779e344-f987-4ad3-9f3d-e72feca29c20)
 ## Task 4 — Collecte BeVigil : endpoints, domaines, emails, technologies 
-
+Dans le fichier 01-bevigil/bevigil_notes.md
 ## Task 5 — Démarrage et prise en main Yaazhini
 ![](https://github.com/user-attachments/assets/87478714-fe5c-47e7-9110-1ab5eb09d58d)
 ![](https://github.com/user-attachments/assets/abbf83ab-c446-4c94-bbc1-68419e3f9479)
 ![](https://github.com/user-attachments/assets/d0a9ca33-c1e1-4541-ad8f-80539a68a07b)
 ![](https://github.com/user-attachments/assets/5e889c07-64cf-4274-b3cc-a0303bbd583b)
 ![](https://github.com/user-attachments/assets/c616146f-3931-4425-8c71-d03bcc1f49b5)
+## Task 6 — Collecte Yaazhini : indices d'exposition
+Dans le fichier 02-yaazhini/yaazhini_notes.md
+## Task 7 — Normalisation et dédoublonnage
+Dans le  fichier 03-triage/triage.csv
+## Task 8 — Corrélation avec OWASP
+Dans le fichier 03-triage/owasp_mapping.md
+## Task 9 — Rédaction du mini-rapport
+Dans le fichier 04-report/rapport_final.md
