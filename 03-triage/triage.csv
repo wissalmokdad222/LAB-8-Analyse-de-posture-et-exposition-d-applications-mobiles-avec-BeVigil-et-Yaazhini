@@ -1,0 +1,9 @@
+"ID,Source,Élément,Preuve,Confiance,Sévérité,Impact,Recommandation,Référence OWASP,Statut" | Out-File -FilePath "03-triage\triage.csv" -Encoding utf8
+
+@"
+FIND-001,BeVigil,API Key exposée,bevigil_export.json:section assets,Forte,High,Accès non autorisé aux services backend,Utiliser un mécanisme sécurisé de stockage des clés,MASVS-STORAGE-1,Confirmé
+FIND-002,Yaazhini,Communication en clair,yaazhini_report:section network,Moyenne,Medium,Interception possible des données,Implémenter TLS pour toutes les communications,MASVS-NETWORK-1,À confirmer
+FIND-003,BeVigil+Yaazhini,Backup activé,Manifest + BeVigil config scan,Forte,Medium,Extraction possible des données applicatives,Désactiver allowBackup dans AndroidManifest.xml,MASVS-STORAGE-4,Confirmé
+"@ | Out-File -FilePath "03-triage\triage.csv" -Encoding utf8 -Append
+
+"Created triage.csv with header and example entries" | Out-File -FilePath "commands.log" -Encoding utf8 -Append

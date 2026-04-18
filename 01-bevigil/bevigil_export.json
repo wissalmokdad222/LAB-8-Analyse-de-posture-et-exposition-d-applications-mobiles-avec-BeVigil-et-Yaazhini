@@ -1,0 +1,31 @@
+{
+  "project_name": "LAB-BEGINNER-20260317",
+  "apk_info": {
+    "name": "app-debug.apk",
+    "certificate": {
+      "signed": true,
+      "v2_signature": true,
+      "hash_algorithm": "sha256",
+      "issuer": "CN=Android Debug, O=Android, C=US",
+      "subject": "CN=Android Debug, O=Android, C=US",
+      "valid_from": "2026-03-08T15:04:00+00:00",
+      "valid_to": "2056-02-29T15:04:00+00:00",
+      "sha256": "4546544a3ffb85bc27b6fbf7afe004b7a226798b83397e93eb56c7d33600c185"
+    }
+  },
+  "assets": [
+    { "type": "image", "path": "res/drawable/logo.png" },
+    { "type": "configuration", "path": "assets/config.json" }
+  ],
+  "endpoints": [
+    { "url": "https://api.example.com/login", "method": "POST" },
+    { "url": "https://api.example.com/data", "method": "GET" }
+  ],
+  "urls": [
+    "https://www.example.com/privacy",
+    "https://www.example.com/terms"
+  ],
+  "technologies": ["Firebase", "Retrofit", "Glide"],
+  "analysis_date": "2026-03-17T16:00:00+00:00",
+  "bevigil_version": "2.1.0"
+}
